@@ -59,40 +59,39 @@ public class SauceDemo {
 
         //CssSelector
         //.class
-        WebElement byCssClass = chromeDriver.findElement(By.cssSelector(""));
+        WebElement byCssClass = chromeDriver.findElement(By.cssSelector(".header_container"));
 
         //.class1.class2
-        WebElement byCssClass1 = chromeDriver.findElement(By.cssSelector(""));
+        WebElement byCssClass1 = chromeDriver.findElement(By.cssSelector(".bm-item.menu-item"));
 
         //.class1 .class2
-        WebElement byCssClass2 = chromeDriver.findElement(By.cssSelector(""));
+        WebElement byCssClass2 = chromeDriver.findElement(By.cssSelector(".bm-menu .bm-item-list"));
 
         //#id
-        WebElement byCssId = chromeDriver.findElement(By.cssSelector(""));
+        WebElement byCssId = chromeDriver.findElement(By.cssSelector("#react-burger-menu-btn"));
 
         //tagname
-        WebElement byCssTagName = chromeDriver.findElement(By.cssSelector(""));
+        WebElement byCssTagName = chromeDriver.findElement(By.cssSelector("body"));
 
         //tagname.class
-        WebElement byCssTagNameClass = chromeDriver.findElement(By.cssSelector(""));
+        WebElement byCssTagNameClass = chromeDriver.findElement(By.cssSelector("div.bm-burger-button"));
 
         //[attribute=value]
-        WebElement byCssAttributeValue1 = chromeDriver.findElement(By.cssSelector(""));
+        WebElement byCssAttributeValue1 = chromeDriver.findElement(By.cssSelector("[alt='Swag Bot Footer']"));
 
         //[attribute~=value]
-        WebElement byCssAttributeValue2 = chromeDriver.findElement(By.cssSelector(""));
+        WebElement byCssAttributeValue2 = chromeDriver.findElement(By.cssSelector("[alt~='Bot']"));
 
         //[attribute|=value]
-        WebElement byCssAttributeValue3 = chromeDriver.findElement(By.cssSelector(""));
+        WebElement byCssAttributeValue3 = chromeDriver.findElement(By.cssSelector("[name|='add-to-cart']"));
 
         //[attribute^=value]
-        WebElement byCssAttributeValue4 = chromeDriver.findElement(By.cssSelector(""));
+        WebElement byCssAttributeValue4 = chromeDriver.findElement(By.cssSelector("[href^=\"https://saucelabs.com/\"]"));
 
         //[attribute$=value]
-        WebElement byCssAttributeValue5 = chromeDriver.findElement(By.cssSelector(""));
+        WebElement byCssAttributeValue5 = chromeDriver.findElement(By.cssSelector("[href$='.ico']"));
 
         //[attribute*=value]
-        WebElement byCssAttributeValue6 = chromeDriver.findElement(By.cssSelector(""));
+        WebElement byCssAttributeValue6 = chromeDriver.findElement(By.cssSelector("[href*='vic']"));
     }
 }
-
