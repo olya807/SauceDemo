@@ -42,7 +42,7 @@ public class SauceDemo {
         WebElement byXpathAncestor = chromeDriver.findElement(By.xpath("//option[text()='Name (A to Z)']//ancestor::select"));
 
         //descendant
-        WebElement byXpathDescendant = chromeDriver.findElement(By.xpath(""));
+        WebElement byXpathDescendant = chromeDriver.findElement(By.xpath("//*[@id='menu_button_container']//descendant::nav"));
 
         //following
         WebElement byXpathFollowing = chromeDriver.findElement(By.xpath("//*[@type='password']//following::input"));
